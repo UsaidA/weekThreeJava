@@ -9,8 +9,7 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args){
-    File mp3File = new File("C:\\Users\\bb101\\IdeaProjects\\weekThreeJava\\files\\Me.mp3");
-    File mp3FileChange= new File("C:\\Users\\bb101\\IdeaProjects\\weekThreeJava\\files\\Mine.mp3");
+
     File carsFile =  new File("cars.txt");
 
     List<car> carList = new ArrayList<>();
@@ -33,7 +32,7 @@ public class main {
 
 try{
     FileWriter myWriter = new FileWriter("cars.txt");
-    myWriter.write(carList);
+    myWriter.write();
     myWriter.close();
 
 }catch (IOException e){

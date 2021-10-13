@@ -1,5 +1,7 @@
 import java.io.File;
 import java.util.Scanner;
+import java.io.Serializable;
+import java.io.ObjectOutputStream;
 
 public class car {
     private String registrationNumber;
